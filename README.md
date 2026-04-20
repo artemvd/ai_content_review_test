@@ -65,3 +65,7 @@ Then you can use `drush` or `drupal` command to apply the recipe as usual.
 ```bash
 drush recipe ../recipes/ai_content_review_test
 ```
+
+## Demo content
+
+This recipe also adds one demo page that can be used for testing if needed.
