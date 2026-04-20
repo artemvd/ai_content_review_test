@@ -11,6 +11,7 @@ install:
   - token_entity_render
 
 config:
+  strict: false
   actions:
     ai.settings:
       verifySetupAi:

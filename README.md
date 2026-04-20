@@ -31,6 +31,8 @@ AI Agents that will be created:
 - `/node/1/ai-review` here you can view the AI Content Review records for the page
 - `/node/1/ai-review/history` here you can view the AI Content Review history for the current page
 
+The last two links are also available as the local task menu items on the node edit page.
+
 For the links above `1` is the node id. You can change it to any other node id.
 
 ## How it works?
@@ -65,6 +67,10 @@ Then you can use `drush` or `drupal` command to apply the recipe as usual.
 ```bash
 drush recipe ../recipes/ai_content_review_test
 ```
+
+This recipe assumes that you have a minimal Drupal installation, or standard Drupal installation with AI module installed. If you don't have AI module installed, it will be pulled and installed for you. In addition you need to have at least 1 AI Provider with support of `chat_with_tools` operation type. For example OpenAI, amazee.io, etc. 
+
+If you have a content type `page` already installed and it is not from `standard` profile, you may need to adjust the recipe to use your content type instead of `page`.
 
 ## Demo content
 
