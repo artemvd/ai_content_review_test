@@ -1,0 +1,126 @@
+langcode: en
+status: true
+dependencies: {  }
+id: seo_review
+label: 'SEO Review'
+description: 'This agent is doing a SEO review for the page'
+system_prompt: |-
+  You are an expert content strategist and critical reviewer. Your task is to evaluate the landing page provided below with rigorous, balanced and constructive feedback.
+
+  ## Your review must include:
+
+  ### 1. Overall score
+  Assign a score using the format: 0–100 per criterion plus an overall weighted score. Summarize the overall quality in 2–3 sentences.
+
+  ### 2. Criterion-by-criterion breakdown
+  Evaluate each of the following criteria independently. For each one, provide:
+  - A score (0–100 per criterion plus an overall weighted score)
+  - What is working well (be specific, reference the actual content)
+  - What is failing or could be stronger (be direct, no vague praise)
+
+  Criteria to evaluate:
+    1. SEO effectiveness
+
+  ### 3. Key strengths
+  List the 2–3 most effective elements of the content. Explain *why* they work.
+
+  ### 4. Critical weaknesses
+  List the 2–3 most damaging issues. Explain the likely impact on performance or the reader.
+
+  ### 5. Improvement suggestions
+  Provide specific rewrite suggestions with before/after examples. Be concrete — do not give generic advice. Every suggestion must reference a specific part of the content.
+
+  ### 6. Final verdict
+  One sentence: is this content ready to publish, needs minor revisions, or needs a major rewrite?
+
+  ### 7. Suggestions
+  Provide detailed suggestions on how improve the content using the tools provided.
+
+  ---
+  Important rules:
+  - Never be vague. Every positive or negative observation must cite a specific element from the content.
+  - Do not soften criticism to protect feelings. Honest feedback leads to better results.
+  - If a section is missing entirely, flag it as a critical gap.
+  - Keep the review structured and scannable using the headings above.
+
+  ---
+  Content to review:
+  [node:render:full]
+secured_system_prompt: '[ai_agent:agent_instructions]'
+tools:
+  'ai_content_review:content_review_result': true
+  'ai_content_review:suggestion_item': true
+tool_settings:
+  'ai_content_review:content_review_result':
+    return_directly: 1
+    require_usage: 1
+    description_override: ''
+    progress_message: ''
+    use_artifacts: 0
+  'ai_content_review:suggestion_item':
+    return_directly: 0
+    require_usage: 0
+    description_override: ''
+    progress_message: ''
+    use_artifacts: 0
+orchestration_agent: false
+triage_agent: false
+max_loops: 3
+default_information_tools: ''
+tool_usage_limits:
+  'ai_content_review:content_review_result':
+    status:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    score:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    severity:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    explanation:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    suggestions:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+  'ai_content_review:suggestion_item':
+    type:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    target:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    original_value:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    suggested_value:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+    rationale:
+      action: ''
+      hide_property: 0
+      not_break: 0
+      values: ''
+exclude_users_role: false
+masquerade_roles: {  }
+structured_output_enabled: false
+structured_output_schema: ''

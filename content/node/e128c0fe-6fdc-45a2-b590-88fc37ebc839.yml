@@ -1,0 +1,37 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e128c0fe-6fdc-45a2-b590-88fc37ebc839
+  bundle: page
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'The Fantastic Four: First Steps: charming superhero family story stifled by Marvel brand extension'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      langcode: en
+      alias: null
+  body:
+    -
+      value: '<p>It’s a pleasure to watch the super-charged dynamics of the Fantastic Four, but attempts to fit this retrofuturistic family unit into the wider ‘Marvel cinematic universe’ feel clumsy.</p><p>24 July 2025</p><p><img src="https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/1300x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg" alt="Fantastic 4 squad" srcset="https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/510x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg 510w,https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/845x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg 845w,https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/1020x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg 1020w,https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/1300x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg 1300w,https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/2000x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg 2000w,https://core-cms.bfi.org.uk/sites/default/files/styles/responsive/public/2025-07/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg/2600x0/the-fantastic-four-first-steps-2025-two-men-in-blue-and-white-spacesuits-ebon-moss-bachrach-pedro-pascal.jpeg 2600w" sizes="100vw" width="1300" height="867"><cite>Ebon Moss-Bachrach as Ben Grimm/The Thing and Pedro Pascal as Reed Richards/Mister Fantastic</cite>Courtesy of Disney UK</p><p>By&nbsp;<a href="https://www.bfi.org.uk/profile/adam-nayman">Adam Nayman</a></p><p><a href="https://www.bfi.org.uk/articles/type/reviews">Reviews</a></p><p>Playing Professor Reed Richards in The Fantastic Four: First Steps, Pedro Pascal furrows his brow soulfully while his limbs elongate into CGI spaghetti; it’s the perfect visual for a very busy actor whose charisma has recently been stretched dangerously&nbsp;thin.&nbsp;</p><p>Like the other actors cast here as members of the tight-knit, fatefully irradiated Richards-Storm clan – Joseph Quinn as the hotheaded Johnny; Vanessa Kirby as the translucent Sue; and Ebon Moss-Bachrach as granitic live-in buddy Ben Grimm – Pascal is trying to imbue an enduringly 2-D character with three dimensions, and his best scene doubles as the film’s highlight. Cradling his month-old son Franklin – a potentially all-powerful being born in the encroaching shadow of the planet-devouring behemoth Galactus, who desires the infant as an heir – Reed concedes that his status as the world’s smartest man does nothing to really help him understand fatherhood. “The more I look at you,” he says, “the less I realise I&nbsp;know.”&nbsp;</p><p>All together now: awwwww. Such squishy sentiments are right in Pascal’s daddy-dearrest wheelhouse, and a long-standing lubricator of the Fantastic Four universe, created by Jack Kirby and Stan Lee in a spirit of all-in-the-family egalitarianism similar to – but distinct from – the team-building exploits of the X-Men and the Avengers. Instead of a collection of outsiders brought together by a recruiter or guardian, the Four are an already established domestic and professional unit trying, and succeeding, to funnel their essential, affectionate functionality through a mismatched set of&nbsp;powers.&nbsp;</p><p>More than any of the previous (and in some cases legendarily ill-fated) attempts to put the group onscreen, First Steps understands and navigates these dynamics – at first with a light touch and then, as things grow increasingly apocalyptic, a clumsy, heavy hand. There’s so much pleasure in watching this iteration of the Four quietly run a tight ship as the self-selecting protectors (and media darlings) of their home Earth 828 (the interdimensional call sign is a nod to Jack Kirby’s birthday) that it’s a drag when they have to get serious and level up their efforts. I honestly could have watched a whole movie of them strategising media appearances, bantering with neighbourhood kids (who clamour for Ben to throw a car at them just for fun) and casually dispatching C-level wannabe supervillains like Paul Walter Hauser’s Mole Man, who’s a good sport at being so obviously&nbsp;overmatched.&nbsp;</p><p>The reason that First Steps must complicate and darken its entertainingly gee-whiz tone – well-maintained by director Matt Shakman with a big assist from Kasra Farahani, charming retro-futuristic production design – is so its ensemble can eventually hang out with the other denizens of the Marvel Universe. In this context of endlessly subdividing, interlocking products, Mr. Fantastic’s Stretch Armstrong shtick becomes an emblem of something else: brand extension without&nbsp;end.&nbsp;&nbsp;&nbsp;</p><p>►&nbsp;<strong>The Fantastic Four: First Steps </strong>is in UK&nbsp;cinemas&nbsp;24&nbsp;July.</p><p>The content is taken from <a href="https://www.bfi.org.uk/sight-and-sound/reviews/fantastic-four-first-steps-charming-superhero-family-story-stifled-marvel-brand-extension">https://www.bfi.org.uk/sight-and-sound/reviews/fantastic-four-first-steps-charming-superhero-family-story-stifled-marvel-brand-extension</a>&nbsp;</p>'
+      format: basic_html
+      summary: ''

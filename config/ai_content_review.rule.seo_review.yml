@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+id: seo_review
+label: 'SEO Review'
+entity_type: node
+bundles:
+  - page
+criteria:
+  -
+    label: 'SEO Review'
+    plugin_id: agent_based
+    configuration:
+      agent_id: seo_review
+      provider_config:
+        provider: ''
+        model: ''
+        config: {  }
+        provider_model: __default__
+      prompt_template: ''
