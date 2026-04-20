@@ -1,5 +1,5 @@
 {
-    "name": "drupal/ai_content_review_test",
+    "name": "artemvd/ai_content_review_test",
     "description": "Test setup for AI Content Review functionality to make development of the feature easier.",
     "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",

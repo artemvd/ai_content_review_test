@@ -43,4 +43,25 @@ There are 2 types of review records that are bundle plugins: "Internal" and "Ext
 
 ## How to apply the recipe?
 
-You can either require this package with composer or git clone it to `recipes` folder in your drupal project root. Then you can use `drush` or `drupal` command to apply the recipe as usual.
+You can either require this package with composer or git clone it to `recipes` folder in your drupal project root. 
+
+To fetch the package with composer you need to add this repository to your composer.json file:
+
+```json
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/artemvd/ai_content_review_test"
+        }
+    ]
+}
+```
+
+Then you can run `composer require artemvd/ai_content_review_test:dev-main` to fetch the package.
+
+Then you can use `drush` or `drupal` command to apply the recipe as usual.
+
+```bash
+drush recipe ../recipes/ai_content_review_test
+```
