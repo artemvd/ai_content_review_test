@@ -68,6 +68,12 @@ Then you can use `drush` or `drupal` command to apply the recipe as usual.
 drush recipe ../recipes/ai_content_review_test
 ```
 
+It is recommended to clear the caches after the recipe is applied:
+
+```bash
+drush cr
+```
+
 This recipe assumes that you have a minimal Drupal installation, or standard Drupal installation with AI module installed. If you don't have AI module installed, it will be pulled and installed for you. In addition you need to have at least 1 AI Provider with support of `chat_with_tools` operation type. For example OpenAI, amazee.io, etc. 
 
 If you have a content type `page` already installed and it is not from `standard` profile, you may need to adjust the recipe to use your content type instead of `page`.
